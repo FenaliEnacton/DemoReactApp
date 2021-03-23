@@ -1,0 +1,10 @@
+.heading{
+    color: burlywood;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.root{
+    text-align: center;
+    list-style-position: inside;
+}
