@@ -9,7 +9,7 @@ const Search = () => {
         setImg(data)
 
     }
-    const Image = `https://source.unsplash.com/400x400/?${Img}`
+    const Image = `https://source.unsplash.com/200x200/?${Img}`
     return (
         <div className="searchbar">
             <h1>Search Here</h1>
