@@ -5,6 +5,9 @@ const Contact = (props) => {
         textAlign: 'center',
 
     }
+
+    console.log("Data:", props);
+
     return (
         <div style={Container}>
             <h1>This is a {props.name} page</h1>

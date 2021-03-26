@@ -16,7 +16,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Greet} />
         <Route exact path="/about" render={() => <About name="About" />} />
-        <Route exact path="/contact" render={() => <Contact name="Contact" />} />
+        <Route exact path="/contact" render={(prop) => <Contact {...prop} name="Contact" />} />
         <Route exact path="/search" component={() => <Search />} />
         <Route exact path="/login" component={Login} />
         <Route path="/userDetail/:uname" component={UserDetail} />

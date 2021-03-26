@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
-const Login = () => {
+const Login = (props) => {
     const Container = {
         textAlign: 'center',
         marginTop: 10
@@ -22,7 +22,7 @@ const Login = () => {
             [event.target.id]: event.target.value
         })
     }
-
+    //console.log("Data:", props);
     return (
         <div style={Container}>
             <h1>Login</h1>
